@@ -12,6 +12,7 @@ public class Flipcart {
 	driver.manage().window().maximize();
 	driver.get("https://www.flipkart.com/");
 	Thread.sleep(3000);
+	System.out.println("browser closing");
 	driver.close();
 	
 
