@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Parameters Suite" duration-ms="21420" started-at="2020-07-27T17:31:40Z" finished-at="2020-07-27T17:32:02Z">
+    <groups>
+    </groups>
+    <test name="Params" duration-ms="21420" started-at="2020-07-27T17:31:40Z" finished-at="2020-07-27T17:32:02Z">
+      <class name="TestNG.TestNG_Parameter1">
+        <test-method status="PASS" signature="open()[pri:0, instance:TestNG.TestNG_Parameter1@29ee9faa]" name="open" is-config="true" duration-ms="9630" started-at="2020-07-27T17:31:40Z" finished-at="2020-07-27T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="Login_1(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestNG_Parameter1@29ee9faa]" name="Login_1" duration-ms="9652" started-at="2020-07-27T17:31:50Z" finished-at="2020-07-27T17:32:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sindhuja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chikki]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_1 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestNG.TestNG_Parameter1@29ee9faa]" name="close" is-config="true" duration-ms="2106" started-at="2020-07-27T17:32:00Z" finished-at="2020-07-27T17:32:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestNG.TestNG_Parameter1 -->
+    </test> <!-- Params -->
+  </suite> <!-- TestNG Parameters Suite -->
+</testng-results>
